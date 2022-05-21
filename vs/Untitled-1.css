@@ -1,0 +1,27 @@
+body {background-image: url(images/1.JPG);}
+a {
+    color:rgb(30, 0, 255);
+    font-size: 50px;
+}
+div {
+    color:#4b6767;
+}
+#sss {color:lime;font-size:200px;}
+
+#a123 {color:blueviolet;}
+.type1 {color:brown}
+.type2 {color:darkolivegreen}
+.message { color:crimson; font-size: large; background-color: blueviolet; border: 1px dashed black; margin-bottom:10px;padding:10px;}
+.fail {color:rgb(41, 18, 22); font-size: large; background-color: rgb(192, 226, 43); border: 1px dashed black}
+.success {color:rgb(38, 12, 71); font-size: large; background-color: rgb(204, 46, 72); border: 1px dashed black}
+.message:hover {border: 5px solid;}
+.animate {
+transform: rotate(15deg) scale(0.7);
+transition: 5s;    
+color:darkorange; border: 15px solid rgb(76, 50, 205);
+ margin: 10px; padding: 10px; background-color: rgb(102, 0, 255);
+border-radius: 8px; opacity:0.8;
+box-shadow: 5px 5px 5px rgb(70, 15, 15);
+width:max-content; height: max-content; text-align: center;
+font-size: 80px; font-weight: 40;}
+.animate:hover {opacity:1; transform: rotate(160deg); ;}
